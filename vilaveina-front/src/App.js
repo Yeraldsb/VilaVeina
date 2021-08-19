@@ -1,5 +1,6 @@
 import {PaginaHome} from "./componentes/welcomePage/PaginaHome";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import {MenuOptions} from "./componentes/menuOptions/MenuOptions";
 
 function App() {
     return (
@@ -8,6 +9,10 @@ function App() {
             <Route>
                 <PaginaHome/>
             </Route>
+            <Route>
+                <MenuOptions />
+            </Route>
+
         </Router>
     );
 }
