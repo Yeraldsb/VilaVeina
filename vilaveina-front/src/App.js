@@ -1,12 +1,15 @@
+import {PaginaHome} from "./componentes/welcomePage/PaginaHome";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        Holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa :)
-      </header>
-    </div>
-  );
+    return (
+
+        <Router>
+            <Route>
+                <PaginaHome/>
+            </Route>
+        </Router>
+    );
 }
 
 export default App;
