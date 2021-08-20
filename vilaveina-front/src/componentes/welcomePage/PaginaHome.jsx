@@ -16,14 +16,11 @@ export function PaginaHome() {
                 <img src={imgLogoVeina} alt="logo veina"/>
             </div>
 
-            <button className="containerEntrar" onClick={ () => setButtonPopup(true)} > Entrar </button>
+            <button className="containerEntrar" onClick={() => setButtonPopup(true)}> Entrar</button>
 
             <PopupModal trigger={buttonPopup} setTrigger={setButtonPopup}>
-                <h1> TEST</h1>
-                <p>holiholilhohhlhihlhi</p>
+
             </PopupModal>
-
-
 
 
             <div> footer
