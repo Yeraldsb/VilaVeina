@@ -2,22 +2,26 @@
     background-color: var(--grey-color);
 }
 
+
 :root{
     --grey-color: #f4f4f4;     /*Color Gris para fondo */
     --black-color: #000000;   /**/
-    --purple-color: #683dc3;    /**/
+    --purple-color: #683dc3;  /**/
     --orange-color: #ff7432;  /**/
     --green-color: #0cba7e;   /**/
-    --pink-color: #ffb3d7;      /**/
+    --pink-color: #ffb3d7;    /**/
 }
-
+.container{
+    flex: 4;
+}
 .LogoVilaMenuPage{
     height:150px ;
     width: 200px ;
 }
 .buttonsmenu{
     display: flex;
-    align-items: center;
+    justify-content: center;
+    padding: 180px;
 }
 .button{
     border:  var(--purple-color) 5px solid;
@@ -42,6 +46,9 @@ footer{
     bottom:0;
     width:100%;
     height:60px;
+
+}
+.titulosBotones{
 
 }
 

@@ -8,28 +8,27 @@ import estadisticaNaranja from "../img/estadisticaNaranja.png"
 import "./menuOptions.css";
 
 
-
 export const MenuOptions = () => (
-    <div>
+    <div className="container">
         <div className="LogoVilaMenuPage">
             <img src={imgLogoVeina} alt="logo veina" className="LogoVilaMenuPage"/>
         </div>
 
         <div className="buttonsmenu">
-        <button className="button">
-            <img src={listaVerde} alt="logo veina" className="iconoEncuesta"/>
-        </button>
+            <button className="button">
+                <img src={listaVerde} alt="logo veina" className="iconoEncuesta"/>
+            </button>
             <h1 className="titulosBotones"> Encuesta </h1>
-        <button className="button">
-            <img src={estadisticaNaranja} alt="logo veina" className="iconoEncuesta"/>
-        </button>
+            <button className="button">
+                <img src={estadisticaNaranja} alt="logo veina" className="iconoEncuesta"/>
+            </button>
+
             <h1 className="titulosBotones"> Estadisticas </h1>
 
         </div>
 
-
         <footer>
-            <div className="line"> </div>
+            <div className="line"></div>
             <img src={logoAgenda} alt="logo agenda"/>
             <img src={logoAjuntament} alt="logo ajuntament"/>
             <img src={logoFoment} alt="logo foment"/>
