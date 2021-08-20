@@ -5,19 +5,18 @@ import {MenuOptions} from "./componentes/menuOptions/MenuOptions";
 function App() {
     return (
 
-        <div>
-            <MenuOptions />
-        </div>
-/*
         <Router>
-            <PaginaHome/>
             <Switch>
-                <Route eaxct path="/MenuOptions">
+                <Route exact path="/">
+                 <PaginaHome/>
+                </Route>
+
+                <Route path="/MenuOptions">
                     <MenuOptions />
                 </Route>
             </Switch>
 
-        </Router>  */
+        </Router>
     );
 }
 
