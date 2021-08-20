@@ -5,15 +5,19 @@ import {MenuOptions} from "./componentes/menuOptions/MenuOptions";
 function App() {
     return (
 
+        <div>
+            <MenuOptions />
+        </div>
+/*
         <Router>
-            <Route>
-                <PaginaHome/>
-            </Route>
-            <Route>
-                <MenuOptions />
-            </Route>
+            <PaginaHome/>
+            <Switch>
+                <Route eaxct path="/MenuOptions">
+                    <MenuOptions />
+                </Route>
+            </Switch>
 
-        </Router>
+        </Router>  */
     );
 }
 
