@@ -27,8 +27,9 @@ export const MenuOptions = () => (
 
         </div>
 
-        <div className="line"> </div>
+
         <footer>
+            <div className="line"> </div>
             <img src={logoAgenda} alt="logo agenda"/>
             <img src={logoAjuntament} alt="logo ajuntament"/>
             <img src={logoFoment} alt="logo foment"/>
