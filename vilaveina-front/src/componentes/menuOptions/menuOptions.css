@@ -1,6 +1,44 @@
-
 *{
-    background-color: #F4F4F4;
+    background-color: var(--grey-color);
+}
+
+:root{
+    --grey-color: #f4f4f4;     /*Color Gris para fondo */
+    --black-color: #000000;   /**/
+    --purple-color: #683dc3;    /**/
+    --orange-color: #ff7432;  /**/
+    --green-color: #0cba7e;   /**/
+    --pink-color: #ffb3d7;      /**/
+}
+
+.LogoVilaMenuPage{
+    height:150px ;
+    width: 200px ;
+}
+.buttonsmenu{
+    display: flex;
+    align-items: center;
+}
+.button{
+    border: none;
+    padding: 20px;
+    border-radius: 80px;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+    width: 200px;
+}
+.iconoEncuesta{
+    height: 150px;
+    width: 150px;
+}
+.line{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: var(--purple-color);
+    margin-bottom: 60px;
 }
 
 .LogoVilaMenuPage{
