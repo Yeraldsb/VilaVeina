@@ -1,6 +1,6 @@
 import React from "react";
 import imgLogoVeina from "../img/LogoVila.png";
-import logoAgenda from "../img/LogoAgenda.jpg";
+import logoAgenda from "../img/LogoAgenda.png";
 import logoAjuntament from "../img/LogoAjuntament.gif";
 import logoFoment from "../img/LogoFoment.png";
 import PopupModal from "../popUp/PopupModal";
