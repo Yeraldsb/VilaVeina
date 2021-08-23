@@ -1,6 +1,6 @@
 import * as React from "react";
 import imgLogoVeina from "../img/LogoVila.png";
-import logoAgenda from "../img/LogoAgenda.jpg";
+import logoAgenda from "../img/LogoAgenda.png";
 import logoAjuntament from "../img/LogoAjuntament.gif";
 import logoFoment from "../img/LogoFoment.png";
 import listaVerde from "../img/listaVerde.png"
@@ -28,10 +28,12 @@ export const MenuOptions = () => (
         </div>
 
         <footer>
-            <div className="line"></div>
-            <img src={logoAgenda} alt="logo agenda"/>
-            <img src={logoAjuntament} alt="logo ajuntament"/>
-            <img src={logoFoment} alt="logo foment"/>
+            <div className="line"> </div>
+            <div className="contenedorLogos">
+            <div><img className="imgAju" src={logoAjuntament} alt="logo ajuntament"/></div>
+            <div><img className="imgAgenda" src={logoAgenda} alt="logo agenda"/></div>
+            <div> <img className="imgFoment" src={logoFoment} alt="logo foment"/></div>
+            </div>
 
         </footer>
 
