@@ -47,13 +47,22 @@ footer{
     height:60px;
 
 }
-.titulosBotones{
+.contenedorBotones {
+margin-top: 6rem;
 
 }
-
-.LogoVilaMenuPage{
-
+.buttonsmenu{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
 }
+.titulosBotones1{
+    display: flex;
+    justify-content: center;
+    gap: 16rem;
+    font-family: Arial;
+}
+
 .contenedorLogos{
     display: flex;
     justify-content: center;

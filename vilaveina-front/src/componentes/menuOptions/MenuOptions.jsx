@@ -13,19 +13,22 @@ export const MenuOptions = () => (
         <div className="LogoVilaMenuPage">
             <img src={imgLogoVeina} alt="logo veina" className="LogoVilaMenuPage"/>
         </div>
-
-        <div className="buttonsmenu">
-            <button className="button">
+        <div className="contenedorBotones">
+            <div className="buttonsmenu">
+             <button className="button">
                 <img src={listaVerde} alt="logo veina" className="iconoEncuesta"/>
-            </button>
-            <h1 className="titulosBotones"> Encuesta </h1>
-            <button className="button">
+             </button>
+
+             <button className="button">
                 <img src={estadisticaNaranja} alt="logo veina" className="iconoEncuesta"/>
-            </button>
-
-            <h1 className="titulosBotones"> Estadisticas </h1>
-
+             </button>
+         </div>
+            <div className="titulosBotones1">
+             <h1 className="titulosBotones"> Encuesta </h1>
+             <h1 className="titulosBotones"> Estadísticas </h1>
+            </div>
         </div>
+
 
         <footer>
             <div className="line"> </div>
