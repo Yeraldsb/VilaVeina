@@ -12,5 +12,8 @@
 
 ### Herramientas:
 #### Lenguaje de programación y dependencias instaladas:
-1. React 
-    - npm react-router-dom
+1. React
+   (hay que instalar las dos dependencias juntas)
+
+     - npm install react-router-dom
+          - npm install react-scripts --save 
