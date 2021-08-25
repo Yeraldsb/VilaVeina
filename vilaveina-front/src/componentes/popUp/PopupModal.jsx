@@ -23,7 +23,8 @@ function PopupModal(props) {
                     <input type="text" id="contraseña" name="contraseña" placeholder="Enter Contraseña"/>
 
                 </div>
-                    <button className="form-login" type="submit" value="login"> Entrar </button>
+                    <button className="form-login" type="submit" value="login">
+                         Entrar  </button>
 
 
                 </div>
