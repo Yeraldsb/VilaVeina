@@ -1,4 +1,6 @@
-
+body{
+    margin: 0 auto;
+}
 
 :root{
     --grey-color: #f4f4f4;     /*Color Gris para fondo */
@@ -9,17 +11,14 @@
     --pink-color: #ffb3d7;    /**/
 }
 
-.line{
-    width: 100%;
-    height: 2px;
-    background: var(--purple-color);
-    margin-top: 20px;
-}
 footer{
-    position:absolute;
+    position:fixed;
     bottom:0;
+    left: 0;
     width:100%;
     height:60px;
+    background-color: var(--grey-color);
+    box-shadow: 0px -2px #E0E0E0;
 
 }
 .contenedorLogos{
@@ -29,7 +28,7 @@ footer{
 
 .imgAju{
     padding: 10px;
-    width: 50%;
+    width: 65%;
     margin-top: 13px;
 }
 .imgAgenda{
@@ -40,6 +39,6 @@ footer{
 }
 .imgFoment{
     padding: 10px;
-    width: 50%;
+    width: 65%;
     margin-top: 13px;
 }

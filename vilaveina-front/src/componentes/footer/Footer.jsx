@@ -7,7 +7,6 @@ import "./footer.css";
 
 export const Footer = () => (
           <footer>
-            <div className="line"> </div>
             <div className="contenedorLogos">
             <div><img className="imgAju" src={logoAjuntament} alt="logo ajuntament"/></div>
             <div><img className="imgAgenda" src={logoAgenda} alt="logo agenda"/></div>
