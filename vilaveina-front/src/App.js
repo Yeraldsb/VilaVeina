@@ -1,6 +1,6 @@
 import {PaginaHome} from "./componentes/welcomePage/PaginaHome";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
-import {MenuOptions} from "./componentes/menuOptions/MenuOptions";
+import {Footer} from "./componentes/footer/Footer";
 import {FormEnquestas} from "./componentes/Form/FormEnquestas";
 import SideBarUser from "./componentes/sideBarUser/SideBarUser";
 
@@ -21,8 +21,8 @@ function App() {
                     <SideBarUser />
                 </Route>
 
-                <Route path="/MenuOptions">
-                    <MenuOptions />
+                <Route path="/Footer">
+                    <Footer />
                 </Route>
             </Switch>
 

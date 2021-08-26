@@ -11,29 +11,7 @@
     --green-color: #0cba7e;   /**/
     --pink-color: #ffb3d7;    /**/
 }
-.container{
-    flex: 4;
-}
-.LogoVilaMenuPage{
-    height:150px ;
-    width: 200px ;
-}
-.buttonsmenu{
-    display: flex;
-    justify-content: center;
 
-}
-.button{
-    border:  var(--purple-color) 5px solid;
-    padding: 40px;
-    border-radius: 50%;
-    cursor: pointer;
-    width: 250px;
-}
-.iconoEncuesta{
-    height: 150px;
-    width: 150px;
-}
 .line{
     width: 100%;
     height: 2px;
@@ -47,27 +25,9 @@ footer{
     height:60px;
 
 }
-.contenedorBotones {
-margin-top: 6rem;
-
-}
-.buttonsmenu{
-    display: flex;
-    justify-content: center;
-    gap: 10rem;
-}
-.titulosBotones1{
-    display: flex;
-    justify-content: center;
-    gap: 16rem;
-    font-family: Arial;
-}
-
 .contenedorLogos{
     display: flex;
     justify-content: center;
-
-
 }
 
 .imgAju{
