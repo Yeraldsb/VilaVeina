@@ -1,17 +1,19 @@
 import React from 'react'
 import "./sideBarUser.css"
+import vila from '../img/LogoVila.png'
+import green from '../img/listaVerde.png'
+import orange from '../img/estadisticaNaranja.png'
+import {Footer} from "../footer/Footer";
 
-export default function SideBarUser(){
-    return(
+export default function SideBarUser() {
+    return (
         <div className="sidebar">
-            <h1>Brand</h1>
-            <a href="">Home</a>
-            <a href="">About</a>
-            <a href="">Portfolio</a>
-            <a href="">Gallery</a>
-            <a href="">Service</a>
-            <a href="">Join</a>
-            <a href="">Contact</a>
+                <img src={vila} alt="" className="vila"/>
+                <div className="containerButton">
+                    <button><img src={green} alt="" className="home"/>Home</button>
+                    <br/>
+                    <button><img src={orange} alt="" className="home"/>About</button>
+                </div>
         </div>
     )
 }
