@@ -1,11 +1,95 @@
 
-.formularienquesta {
-    padding: 10% 30%;
+.formularienquestadiv {
+    padding: 50px 300px 150px 50px;
     font-family: Arial;
+    width: 600px;
+    height: 500px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 85px;
+    margin: 30px 50px 50px 70px;
 }
-.formedatinaixement{
+
+.formularienquesta {
+    display: flex;
+    margin: 2% 10%;
+}
+
+select.form-select {
+    border: 1px solid #683dc3;
+    border-radius: 5px;
+    height: 30px;
+}
+
+/* COLUMNA 1 DE FORMULARIO */
+
+.column1{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 30px 50px 0px 10px;
+}
+    /* input datepicker */
+    .formdata{
+        display: flex;
+    }
+
+.formEdatNaixement{
     display: flex;
 }
 .llocdenaixement{
     margin-left: 10px;
 }
+
+    /* genre */
+    .checkboxgenre{
+        display: flex;
+        padding: 3% 5%;
+    }
+    .genrebox,.ambitbox {
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 100%;
+        width: 15px;
+        height: 18px;
+    }
+    .checkboxAmbit{
+        display: flex;
+    }
+    p{
+        margin: 10px 0px 30px 5px;
+        font-size: 12px;
+    }
+
+
+/*  COLUMNA 2 DE FORMULARIO */
+
+.column2{
+    padding: 0px 0px 0px 30px;
+}
+.grupo2, .grupo3, .grupo4, .grupo5, .grupo6,.grupo7 {
+    margin: 20px 0px 0px;
+}
+
+
+/*Button submit*/
+.submitpoll {
+    background-color: #ff7432;
+    width: 360px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    margin: 10% 0%;
+
+    font-family: Paytone One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 0% 0% 0% 23%;
+}
+
+
