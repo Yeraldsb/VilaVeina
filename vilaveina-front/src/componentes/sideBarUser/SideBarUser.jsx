@@ -13,6 +13,7 @@ export default function SideBarUser() {
                 <button><img src={green} alt="" className="logoSidebar"/>Nova enquesta</button>
                 <br/>
                 <button><img src={orange} alt="" className="logoSidebar"/>Estadístiques</button>
+                <button className="button-logout">Sortir</button>
             </div>
             <Footer/>
         </div>

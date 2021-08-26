@@ -57,4 +57,13 @@ button{
     margin-left: 20px;
     transition: 0.4s;
 }
+.button-logout{
+    background-color: #ff7432;
+    border-style: none;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
 
