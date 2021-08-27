@@ -1,0 +1,19 @@
+
+:root{
+    --grey-color: #f4f4f4;     /*Color Gris para fondo */
+    --black-color: #000000;   /**/
+    --purple-color: #683dc3;  /**/
+    --orange-color: #ff7432;  /**/
+    --green-color: #0cba7e;   /**/
+    --pink-color: #ffb3d7;    /**/
+}
+
+.contenedorTabla{
+    width: 600px;
+    height: 300px;
+    border-radius: 20px;
+
+}
+.tcolor{
+    background-color: var(--purple-color) ;
+}
