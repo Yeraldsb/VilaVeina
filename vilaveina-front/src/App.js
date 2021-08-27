@@ -4,6 +4,7 @@ import {Footer} from "./componentes/footer/Footer";
 import {FormEnquestas} from "./componentes/Form/FormEnquestas";
 import SideBarUser from "./componentes/sideBarUser/SideBarUser";
 import {RegisterForm} from "./componentes/RegisterForm/RegisterForm";
+import Estadisticas from "./componentes/estadisticas/Estadisticas";
 
 function App() {
     return (
@@ -15,7 +16,9 @@ function App() {
                 <Route path="/enquesta">
                     <FormEnquestas />
                 </Route>
-
+                <Route path="/estadistiques">
+                    <Estadisticas />
+                </Route>
                 <Route path="/register">
                     <RegisterForm />
                 </Route>

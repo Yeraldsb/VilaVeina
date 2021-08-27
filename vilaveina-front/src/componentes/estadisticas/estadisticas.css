@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.containerestadisticas{
+    position: fixed;
+    top:0;
+    left: 302px;
+    bottom: 0;
+    background: var(--grey-color);
+    box-shadow: 2px 0px #E0E0E0;
+    height: 260px;
+    width: 100%;
+}
+.containerbotones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 70px 20px;
+
+
+}
+.botones{
+    background-color: transparent;
+    text-decoration: none;
+    font-family: "arial";
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5%;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #683dc3;
+    box-shadow: 2px 2px #c9c9c9;
+}
+.botonfiltro{
+    width: 30px;
+    height: 30px;
+    padding-right: 20px;
+}
+
+.botonfiltro a:hover{
+    color: #fff;
+    margin-left: 20px;
+    transition: 0.4s;
+}
+
