@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import {Footer} from "./componentes/footer/Footer";
 import {FormEnquestas} from "./componentes/Form/FormEnquestas";
 import SideBarUser from "./componentes/sideBarUser/SideBarUser";
+import {RegisterForm} from "./componentes/RegisterForm/RegisterForm";
 
 function App() {
     return (
