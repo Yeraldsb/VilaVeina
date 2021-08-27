@@ -1,0 +1,19 @@
+.registerForm {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 5% 50%;
+    font-family: Arial;
+    background: #FFFFFF;
+
+    border-radius: 53px;
+    height: 400px;
+    padding: 10px 20px 30px;
+    width: 600px;
+}
+
+.columnpile {
+    display: flex;
+}
+.columna2{
+    margin-top: 45px;
+}
+
