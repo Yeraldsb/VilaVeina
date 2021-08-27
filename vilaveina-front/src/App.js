@@ -10,9 +10,15 @@ function App() {
         <Router>
             <SideBarUser/>
             <Switch>
+
                 <Route path="/enquesta">
                     <FormEnquestas />
                 </Route>
+
+                <Route path="/register">
+                    <RegisterForm />
+                </Route>
+
             </Switch>
 
         </Router>

@@ -2,12 +2,13 @@
 .formularienquestadiv {
     padding: 50px 300px 150px 50px;
     font-family: Arial;
-    width: 600px;
-    height: 500px;
+    width: 500px;
+    height: 440px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 85px;
-    margin: 30px 50px 50px 70px;
+    margin: 0px 0% 0px 27%;
+
 }
 
 .formularienquesta {
@@ -49,18 +50,24 @@ select.form-select {
     .genrebox,.ambitbox {
         background-color: white;
         border: 1px solid black;
-        border-radius: 100%;
-        width: 15px;
+        border-radius: 50px;
+        width: 12px;
         height: 18px;
     }
     .checkboxAmbit{
         display: flex;
     }
     p{
-        margin: 10px 0px 30px 5px;
+        margin: 10px 0px 30px 3px;
         font-size: 12px;
     }
 
+select.form-select {
+    border: 1px solid #683dc3;
+    border-radius: 5px;
+    height: 30px;
+    margin-left: 8px;
+}
 
 /*  COLUMNA 2 DE FORMULARIO */
 

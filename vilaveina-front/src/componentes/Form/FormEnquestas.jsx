@@ -43,6 +43,7 @@ export const FormEnquestas = () => {
                     <Form.Group>
                         <Form.Label> Vila Veïna : </Form.Label>
                         <Form.Select>
+                            <option></option>
                             <option>Badal</option>
                             <option>Carmel de dalt</option>
                             <option>Casc antic d'Horta</option>
