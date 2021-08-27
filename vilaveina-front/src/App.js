@@ -8,8 +8,22 @@ function App() {
     return (
 
         <Router>
+            <SideBarUser/>
             <Switch>
-                <Route exact path="/">
+                <Route path="/enquesta">
+                    <FormEnquestas />
+                </Route>
+            </Switch>
+
+        </Router>
+    );
+}
+
+export default App;
+
+
+
+/*        <Route exact path="/">
                  <PaginaHome/>
                 </Route>
 
@@ -24,10 +38,5 @@ function App() {
                 <Route path="/Footer">
                     <Footer />
                 </Route>
-            </Switch>
 
-        </Router>
-    );
-}
-
-export default App;
+             */

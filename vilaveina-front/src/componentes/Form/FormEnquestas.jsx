@@ -28,16 +28,16 @@ export const FormEnquestas = () => {
                 <div className={"columna1"}>
 
                     <div className={"formdata"}>
-                    <Form.Group>
-                        <Form.Label> Data : </Form.Label>
-                    </Form.Group>
-                    <Form.Group className={"formdatepicker"}>
-                        <CustomDatePicker
-                            className="form-control"
-                            dateFormat="dd/MM/yyyy"
-                            selected={datepick}
-                        />
-                    </Form.Group>
+                        <Form.Group>
+                            <Form.Label> Data : </Form.Label>
+                        </Form.Group>
+                        <Form.Group className={"formdatepicker"}>
+                            <CustomDatePicker
+                                className="form-control"
+                                dateFormat="dd/MM/yyyy"
+                                selected={datepick}
+                            />
+                        </Form.Group>
                     </div>
 
                     <Form.Group>
@@ -127,148 +127,147 @@ export const FormEnquestas = () => {
                         </Form.Group>
                     </div>
                     <Form.Group>
-                    <Form.Label> Àmbits Temàtiques </Form.Label>
-                    <div className={"checkboxAmbit"}>
-                        <input type="checkbox" id="ambitbox" className="ambitbox" name="AmbitTem" value="AmbitTem"/>
-                        <p>Pendent de desenvolupar</p>
-                    </div>
-                </Form.Group>
+                        <Form.Label> Àmbits Temàtiques </Form.Label>
+                        <div className={"checkboxAmbit"}>
+                            <input type="checkbox" id="ambitbox" className="ambitbox" name="AmbitTem" value="AmbitTem"/>
+                            <p>Pendent de desenvolupar</p>
+                        </div>
+                    </Form.Group>
 
-
-        </div>
+                </div>
 
 
                 <div className={"columna2"}>
 
                     <div className={"columna2-items"}>
-                      <Form.Group className="grupo1">
-                        <Form.Label> Consulta de títol: </Form.Label>
-                        <br />
-                        <Form.Select>
-                            <option></option>
-                            <option> Professional de les cures i de la llar</option>
-                            <option> Persona cuidadora familiar</option>
-                            <option> Persona receptora de cures</option>
-                            <option> Professional d'altres serveis públics</option>
-                            <option> Entitat, empresa o organització</option>
-                            <option> Altres</option>
-                            <option> NS / NC</option>
-                        </Form.Select>
-                    </Form.Group>
+                        <Form.Group className="grupo1">
+                            <Form.Label> Consulta de títol: </Form.Label>
+                            <br/>
+                            <Form.Select>
+                                <option></option>
+                                <option> Professional de les cures i de la llar</option>
+                                <option> Persona cuidadora familiar</option>
+                                <option> Persona receptora de cures</option>
+                                <option> Professional d'altres serveis públics</option>
+                                <option> Entitat, empresa o organització</option>
+                                <option> Altres</option>
+                                <option> NS / NC</option>
+                            </Form.Select>
+                        </Form.Group>
 
 
-                    <Form.Group className="grupo2">
-                        <Form.Label> Motiu cures o suport: </Form.Label>
-                        <Form.Select>
-                            <option></option>
-                            <option>Edat: petita infància</option>
-                            <option>Edat: procés d'envelliment</option>
-                            <option>Malaltia crònica</option>
-                            <option>Diversitat funcional</option>
-                            <option>Necessitats de cura puntuals (accident o malaltia)</option>
-                            <option>Altres</option>
-                            <option>NS/NC</option>
+                        <Form.Group className="grupo2">
+                            <Form.Label> Motiu cures o suport: </Form.Label>
+                            <Form.Select>
+                                <option></option>
+                                <option>Edat: petita infància</option>
+                                <option>Edat: procés d'envelliment</option>
+                                <option>Malaltia crònica</option>
+                                <option>Diversitat funcional</option>
+                                <option>Necessitats de cura puntuals (accident o malaltia)</option>
+                                <option>Altres</option>
+                                <option>NS/NC</option>
 
-                        </Form.Select>
-                    </Form.Group>
-                    <Form.Group className="grupo3">
-                        <Form.Label> Situació Jurídica: </Form.Label>
-                        <br />
-                        <Form.Select>
-                            <option></option>
-                            <option>Nacionalitat espanyola</option>
-                            <option>Autorització de residència i treball</option>
-                            <option>Autorització de residència sense treball</option>
-                            <option>Residència per estudis</option>
-                            <option>Sense papers</option>
-                            <option>Altres</option>
-                            <option>NS/NC</option>
+                            </Form.Select>
+                        </Form.Group>
+                        <Form.Group className="grupo3">
+                            <Form.Label> Situació Jurídica: </Form.Label>
+                            <br/>
+                            <Form.Select>
+                                <option></option>
+                                <option>Nacionalitat espanyola</option>
+                                <option>Autorització de residència i treball</option>
+                                <option>Autorització de residència sense treball</option>
+                                <option>Residència per estudis</option>
+                                <option>Sense papers</option>
+                                <option>Altres</option>
+                                <option>NS/NC</option>
 
-                        </Form.Select>
-                    </Form.Group>
-                    <Form.Group className="grupo4">
-                        <Form.Label> Serveis i Tràmits: </Form.Label>
-                        <br />
-                        <Form.Select>
-                            <option></option>
-                            <option>Informació</option>
-                            <option>Orientació</option>
-                            <option>Assessorament especialitzat</option>
-                            <option>Tramitació</option>
-                            <option>Dinamització de la informació</option>
-                            <option>Estada a l'espai VilaVeïna</option>
+                            </Form.Select>
+                        </Form.Group>
+                        <Form.Group className="grupo4">
+                            <Form.Label> Serveis i Tràmits: </Form.Label>
+                            <br/>
+                            <Form.Select>
+                                <option></option>
+                                <option>Informació</option>
+                                <option>Orientació</option>
+                                <option>Assessorament especialitzat</option>
+                                <option>Tramitació</option>
+                                <option>Dinamització de la informació</option>
+                                <option>Estada a l'espai VilaVeïna</option>
 
-                        </Form.Select>
-                    </Form.Group>
-                    <Form.Group className="grupo5">
-                        <Form.Label> Nivell d'estudis: </Form.Label>
-                        <br />
-                        <Form.Select>
-                            <option></option>
-                            <option>No sap llegir ni esciure
-                            </option>
-                            <option>Primària incompleta
-                            </option>
-                            <option>Primària completa
-                            </option>
-                            <option>Secundaria o grau mig de formació professional
-                            </option>
-                            <option>Estudis superiors
-                            </option>
-                            <option>NS/NC
-                            </option>
-                        </Form.Select>
-                    </Form.Group>
-                    <Form.Group className="grupo6">
-                        <Form.Label> Situació Laboral: </Form.Label>
-                        <br />
-                        <Form.Select>
-                            <option></option>
-                            <option>Treball a temps parcial
-                            </option>
-                            <option>Treball a temps complet
-                            </option>
-                            <option>Estudiant
-                            </option>
-                            <option>Tasques d'habitatge
-                            </option>
-                            <option>Pensionista
-                            </option>
-                            <option>Aturat/da
-                            </option>
-                            <option>Incapacitat permanent
-                            </option>
-                            <option>Inactiu per altres mot
-                            </option>
-                        </Form.Select>
-                    </Form.Group>
+                            </Form.Select>
+                        </Form.Group>
+                        <Form.Group className="grupo5">
+                            <Form.Label> Nivell d'estudis: </Form.Label>
+                            <br/>
+                            <Form.Select>
+                                <option></option>
+                                <option>No sap llegir ni esciure
+                                </option>
+                                <option>Primària incompleta
+                                </option>
+                                <option>Primària completa
+                                </option>
+                                <option>Secundaria o grau mig de formació professional
+                                </option>
+                                <option>Estudis superiors
+                                </option>
+                                <option>NS/NC
+                                </option>
+                            </Form.Select>
+                        </Form.Group>
+                        <Form.Group className="grupo6">
+                            <Form.Label> Situació Laboral: </Form.Label>
+                            <br/>
+                            <Form.Select>
+                                <option></option>
+                                <option>Treball a temps parcial
+                                </option>
+                                <option>Treball a temps complet
+                                </option>
+                                <option>Estudiant
+                                </option>
+                                <option>Tasques d'habitatge
+                                </option>
+                                <option>Pensionista
+                                </option>
+                                <option>Aturat/da
+                                </option>
+                                <option>Incapacitat permanent
+                                </option>
+                                <option>Inactiu per altres mot
+                                </option>
+                            </Form.Select>
+                        </Form.Group>
 
-                    <Form.Group className="grupo7">
-                        <Form.Label> Com ens ha conegut: </Form.Label>
-                        <br />
-                        <Form.Select>
-                            <option></option>
-                            <option>Boca-orella</option>
-                            <option>Web</option>
-                            <option>Xarxes socials</option>
-                            <option>Cartells publicitaris</option>
-                            <option>Ve derivat d'un altre servei</option>
-                            <option>Accions de dinamització</option>
-                            <option>Altre VilaVeïna</option>
-                            <option>Premsa</option>
-                            <option>Altres</option>
-                            <option>NS/NC</option>
-                        </Form.Select>
-                    </Form.Group>
+                        <Form.Group className="grupo7">
+                            <Form.Label> Com ens ha conegut: </Form.Label>
+                            <br/>
+                            <Form.Select>
+                                <option></option>
+                                <option>Boca-orella</option>
+                                <option>Web</option>
+                                <option>Xarxes socials</option>
+                                <option>Cartells publicitaris</option>
+                                <option>Ve derivat d'un altre servei</option>
+                                <option>Accions de dinamització</option>
+                                <option>Altre VilaVeïna</option>
+                                <option>Premsa</option>
+                                <option>Altres</option>
+                                <option>NS/NC</option>
+                            </Form.Select>
+                        </Form.Group>
+                    </div>
+
+                    <Button className={"submitpoll"} type="submit" variant="success">
+                        ENVIAR ENQUESTA
+                    </Button>
+
                 </div>
-
-            <Button className={"submitpoll"} type="submit" variant="success">
-                ENVIAR ENQUESTA
-            </Button>
-
+            </Form>
         </div>
-    </Form>
-</div>
 
     )
 }

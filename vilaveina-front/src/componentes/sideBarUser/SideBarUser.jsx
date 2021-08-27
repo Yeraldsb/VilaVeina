@@ -4,6 +4,7 @@ import vila from '../img/LogoVila.png'
 import green from '../img/listaVerde.png'
 import orange from '../img/estadisticaNaranja.png'
 import {Footer} from "../footer/Footer";
+import {FormEnquestas} from "../Form/FormEnquestas";
 
 export default function SideBarUser() {
     return (
