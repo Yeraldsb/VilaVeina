@@ -1,19 +1,62 @@
 
-:root{
-    --grey-color: #f4f4f4;     /*Color Gris para fondo */
-    --black-color: #000000;   /**/
-    --purple-color: #683dc3;  /**/
-    --orange-color: #ff7432;  /**/
-    --green-color: #0cba7e;   /**/
-    --pink-color: #ffb3d7;    /**/
+:root {
+    --grey-color: #f4f4f4; /*Color Gris para fondo */
+    --black-color: #000000; /**/
+    --purple-color: #683dc3; /**/
+    --orange-color: #ff7432; /**/
+    --green-color: #0cba7e; /**/
+    --pink-color: #ffb3d7; /**/
 }
+
+.registro {
+    font-weight: 400;
+    font-size: 48px;
+    font-family: Arial;
+}
+
 
 .contenedorTabla{
-    width: 600px;
-    height: 300px;
-    border-radius: 20px;
+    width: 60%;
+    border-radius: 50%;
 
 }
-.tcolor{
-    background-color: var(--purple-color) ;
+
+.tcolor {
+    background-color: var(--purple-color);
+}
+
+.Tabla {
+    display: flex;
+    flex-direction: column;
+    margin-left: 350px;
+    align-items: center;
+
+}
+
+.modalContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.primerModal {
+    flex-direction: column;
+    margin: 540px;
+    font-family: "arial";
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.botonTablaEncuestadores {
+    background-color: #ff7432;
+    border-style: none;
+    color: white;
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 60vh;
+    padding: 30px;
+    right: 240px;
+
 }

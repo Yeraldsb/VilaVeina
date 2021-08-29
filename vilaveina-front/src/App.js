@@ -5,6 +5,7 @@ import {FormEnquestas} from "./componentes/Form/FormEnquestas";
 import SideBarUser from "./componentes/sideBarUser/SideBarUser";
 import {RegisterForm} from "./componentes/RegisterForm/RegisterForm";
 import Estadisticas from "./componentes/estadisticas/Estadisticas";
+import TablaEncuestadores from "./componentes/registroEncuestadores/TablaEncuestadores";
 
 function App() {
     return (
@@ -12,6 +13,9 @@ function App() {
         <Router>
             <SideBarUser/>
             <Switch>
+                <Route path="/tabla">
+                    <TablaEncuestadores />
+                </Route>
 
                 <Route path="/enquesta">
                     <FormEnquestas />
