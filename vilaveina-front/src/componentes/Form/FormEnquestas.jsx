@@ -17,7 +17,8 @@ export const FormEnquestas = () => {
     function handleOnSubmit(e) {
         e.preventDefault();
         alert("Hem rebut la seva enquesta");
-        history.push("/");
+        history.push("/enquesta");
+        window.location.reload(false);
     }
 
 
