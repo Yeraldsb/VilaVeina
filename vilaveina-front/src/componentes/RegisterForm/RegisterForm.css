@@ -13,7 +13,24 @@
 .columnpile {
     display: flex;
 }
-.columna2{
-    margin-top: 45px;
+
+.button-save {
+    color: white;
+    text-align: center;
+    background-color: #ff7432;
+    font-family: Arial;
 }
 
+.columna-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10px 40px 30px
+}
+.columna-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 10px 40px 30px
+}
+input , .formselect {
+    margin: 10px 20px 10px 10px;
+}
