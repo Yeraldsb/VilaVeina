@@ -8,6 +8,7 @@
     height: 400px;
     padding: 10px 20px 30px;
     width: 600px;
+    margin-left: 40%;
 }
 
 .columnpile {
@@ -19,6 +20,9 @@
     text-align: center;
     background-color: #ff7432;
     font-family: Arial;
+    padding: 10px;
+    margin-left: auto;
+    width: 125px;
 }
 
 .columna-1 {
@@ -33,4 +37,7 @@
 }
 input , .formselect {
     margin: 10px 20px 10px 10px;
+}
+h3 {
+    text-align: center;
 }

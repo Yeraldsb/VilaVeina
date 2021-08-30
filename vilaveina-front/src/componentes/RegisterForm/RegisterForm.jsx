@@ -16,7 +16,9 @@ export const RegisterForm = () => {
     }
 
     return (
+
         <div className={"registerForm"}>
+            <h3>Alta Enquestadores</h3>
             <div className={"columnpile"} onSubmit={handleonSubmit}>
 
                 <div className={"columna-1"}>
