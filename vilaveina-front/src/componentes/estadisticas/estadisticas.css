@@ -1,3 +1,4 @@
+
 .bodyestadisticas{
     margin: 0;
     padding: 0;
@@ -15,13 +16,10 @@
     height: 307px;
     width: 100%;
 }
-.datapicker-estadisticas{
 
-}
 .containerbotones{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 0 0 302px;
     background-color: var(--grey-color);
     align-items: center;
     justify-content: center;
@@ -57,3 +55,29 @@
     justify-content: center;
 }
 
+
+
+/*
+input, .formselect {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    cursor: pointer;
+    text-align: center;
+}
+
+.react-datepicker__input-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+
+    padding: 16px;
+    border-radius: 5%;
+    height: 31px;
+    width: 135px;
+    border: 2px solid #a6a6a6;
+    box-shadow: 2px 2px #c9c9c9;
+    cursor: pointer;
+} */

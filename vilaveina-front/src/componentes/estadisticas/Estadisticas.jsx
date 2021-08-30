@@ -6,27 +6,43 @@ import enquestes from '../img/xarxa.png'
 import consulta from '../img/escales.png'
 import suport from '../img/cor.png'
 import genere from '../img/cures.png'
-import StadisticsCalendar from "./StadisticsCalendar";
+import DatePicker from "react-datepicker";
+
 
 
 
 export default function Estadisticas() {
-     const [datepick, setDatePick] = useState(new Date());
+
+    const [dateRange, setDateRange] = useState([null, null]);
+    const [startDate, endDate] = dateRange;
 
     return (
         <div className="bodyestadisticas">
+
             <div className="containerestadisticas">
 
-                    <div className="containerbotones">
-                        <div className="datapicker-estadisticas">
-                            <StadisticsCalendar
-                                className="form-control"
-                                dateFormat="dd/MM/yyyy"
-                                selected={datepick}
-                                onChange={(date) => setDatePick(date)}
-                            />
 
+                    <div className="containerbotones">
+                        <div className={"rangedatepicker"}>
+                            <div>
+                                <DatePicker
+                                    selected={startDate}
+                                    onChange={(date) => setStartDate(date)}
+                                    selectsStart
+                                    startDate={startDate}
+                                    endDate={endDate}
+                                />
+                                <DatePicker
+                                    selected={endDate}
+                                    onChange={(date) => setEndDate(date)}
+                                    selectsEnd
+                                    startDate={startDate}
+                                    endDate={endDate}
+                                    minDate={startDate}
+                                />
+                            </div>
                         </div>
+
                         <button className="botones" ><img src={genere} alt="" className="iconoboton"/>Gènere</button>
                         <button className="botones"><img src={edat} alt="" className="iconoboton"/>Edat</button>
                         <button className="botones"><img src={naixement} alt="" className="iconoboton"/>Lloc naixement</button>
