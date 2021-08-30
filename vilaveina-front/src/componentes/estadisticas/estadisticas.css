@@ -5,9 +5,7 @@ body{
 
 .containerestadisticas{
     position: fixed;
-    top:0;
-    left: 302px;
-    bottom: 0;
+    margin: 0 0 0 302px;
     background: var(--grey-color);
     box-shadow: 2px 0px #E0E0E0;
     height: 260px;
@@ -16,10 +14,11 @@ body{
 .containerbotones{
     display: flex;
     flex-wrap: wrap;
+    margin: 0 0 0 302px;
+    background-color: var(--grey-color);
+    align-items: center;
     justify-content: center;
-    align-items: flex-start;
-    padding: 70px 20px;
-
+    height: 260px;
 
 }
 .botones{
@@ -29,13 +28,11 @@ body{
     letter-spacing: 1px;
     font-size: 15px;
     font-weight: 400;
-    padding: 5px;
+    padding: 16px;
     cursor: pointer;
     border-radius: 5%;
-    width: 150px;
-    display: flex;
-    align-items: center;
-    border: 2px solid #683dc3;
+    width: 166px;
+    border: 2px solid #a6a6a6;
     box-shadow: 2px 2px #c9c9c9;
 }
 .botonfiltro{
@@ -48,5 +45,9 @@ body{
     color: #fff;
     margin-left: 20px;
     transition: 0.4s;
+}
+
+.containergrafica{
+
 }
 
