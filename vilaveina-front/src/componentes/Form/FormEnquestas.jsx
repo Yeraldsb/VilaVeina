@@ -86,6 +86,7 @@ export const FormEnquestas = () => {
                     <Form.Group>
                         <Form.Label> Canal d'Atenció </Form.Label>
                         <Form.Select>
+                            <option></option>
                             <option>Presencial Espai</option>
                             <option>Presencial Descentralizat</option>
                             <option>Telefónic</option>
@@ -98,6 +99,7 @@ export const FormEnquestas = () => {
                         <Form.Group>
                             <Form.Label> Edat </Form.Label>
                             <Form.Select>
+                                <option></option>
                                 <option>-18 anys</option>
                                 <option>De 18 a 24 anys</option>
                                 <option>De 25 a 34 anys</option>
@@ -113,6 +115,7 @@ export const FormEnquestas = () => {
                         <Form.Group>
                             <Form.Label className={"llocdenaixement"}> Lloc de naixement </Form.Label>
                             <Form.Select>
+                                <option></option>
                                 <option>Catalunya</option>
                                 <option>Resta de l'Estat</option>
                                 <option>Unión Europea</option>

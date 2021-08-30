@@ -82,7 +82,7 @@ select.form-select {
 /*Button submit*/
 .submitpoll {
     background-color: #ff7432;
-    width: 360px;
+    width: 200px;
     height: 60px;
     border: none;
     border-radius: 10px;
@@ -91,11 +91,9 @@ select.form-select {
     font-family: Paytone One;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 28px;
-    text-align: center;
+    font-size: 14px;
     color: #FFFFFF;
-    padding: 0% 0% 0% 23%;
+    padding: 0% 0% 0% 10%;
 }
 
 

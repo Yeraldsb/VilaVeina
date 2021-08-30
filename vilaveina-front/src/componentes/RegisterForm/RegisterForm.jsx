@@ -1,17 +1,25 @@
 import React from "react";
 import "./RegisterForm.css";
 import Form from "react-bootstrap/Form";
+import {useHistory} from "react-router-dom";
 
 
 
 
 export const RegisterForm = () => {
+    const history = useHistory();
+
+    function handleonSubmit(e) {
+        e.preventDefault();
+        alert("Hem rebut la seva enquesta");
+        history.push("/");
+    }
 
     return (
         <div className={"registerForm"}>
-            <div className={"columnpile"}>
+            <div className={"columnpile"} onSubmit={handleonSubmit}>
 
-                <div className={"columna1"}>
+                <div className={"columna-1"}>
                     <label>Nom</label>
                     <input type="text"  className="register-name"  required />
                     <label>Adreça</label>
@@ -22,11 +30,12 @@ export const RegisterForm = () => {
                     <input type="text"  className="register-email"  required />
                 </div>
 
-                <div className={"columna2"}>
+                <div className={"columna-2"}>
                     <label>Cognom</label>
                     <input type="text"  className="register-surname"  required />
                     <Form.Group>
                         <Form.Label> Vila Veïna : </Form.Label>
+                        <div className={"formselect"}>
                         <Form.Select>
                             <option></option>
                             <option>Badal</option>
@@ -46,6 +55,7 @@ export const RegisterForm = () => {
                             <option>Vila de Gracia</option>
                             <option>Vilapicina i la Torre LLobeta - Cotxeres</option>
                         </Form.Select>
+                        </div>
                     </Form.Group>
                     <label>Telèfon</label>
                     <input type="text"  className="register-phone"  required />
@@ -54,7 +64,7 @@ export const RegisterForm = () => {
                 </div>
             </div>
 
-            <button className={"submitRegForm"} type="submit" > Guardar </button>
+            <button className={"button-save"} type="submit" > GUARDAR </button>
 
         </div>
 
