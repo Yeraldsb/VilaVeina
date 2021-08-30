@@ -1,24 +1,33 @@
 import React from 'react'
 import "./estadisticas.css"
-import green from '../img/listaVerde.png'
-import orange from '../img/estadisticaNaranja.png'
+import edat from '../img/altaBaja.png'
+import naixement from '../img/arbre.png'
+import enquestes from '../img/xarxa.png'
+import consulta from '../img/escales.png'
+import suport from '../img/cor.png'
+import genere from '../img/cures.png'
 import CustomDataPicker from "../Form/CustomDatePicker";
+
 
 export default function Estadisticas() {
     return (
-        <div className="containerestadisticas">
-        <CustomDataPicker />
-            <div className="containerbotones">
-                <button className="botones"><img src={green} alt="" className="botonfiltro"/>Gènere</button>
-                <button className="botones"><img src={green} alt="" className="botonfiltro"/>Edat</button>
-                <button className="botones"><img src={orange} alt="" className="botonfiltro"/>Lloc naixement</button>
-                <button className="botones"><img src={orange} alt="" className="botonfiltro"/>Enquestes realitzades</button>
-                <button className="botones"><img src={orange} alt="" className="botonfiltro"/>Consulta a títol</button>
-                <button className="botones"><img src={orange} alt="" className="botonfiltro"/>Cures /suport</button>
-            </div>
-            <div className="containergrafica">
-                <p>aquí irá la gráfica</p>
-            </div>
+        <div className="bodyestadisticas">
+            <div className="containerestadisticas">
+                <div className="datapicker-estadisticas">
+                    <CustomDataPicker />
+                </div>
+                    <div className="containerbotones">
+                        <button className="botones" ><img src={genere} alt="" className="iconoboton"/>Gènere</button>
+                        <button className="botones"><img src={edat} alt="" className="iconoboton"/>Edat</button>
+                        <button className="botones"><img src={naixement} alt="" className="iconoboton"/>Lloc naixement</button>
+                        <button className="botones"><img src={enquestes} alt="" className="iconoboton"/>Enquestes realitzades</button>
+                        <button className="botones"><img src={consulta} alt="" className="iconoboton"/>Consulta a títol</button>
+                        <button className="botones"><img src={suport} alt="" className="iconoboton"/>Cures /suport</button>
+                    </div>
+                         <div className="containergrafica">
+                        <p>aquí irá la gráfica</p>
+                         </div>
+             </div>
         </div>
 
             )

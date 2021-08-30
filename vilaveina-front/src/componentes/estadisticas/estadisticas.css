@@ -1,15 +1,22 @@
-body{
+.bodyestadisticas{
     margin: 0;
     padding: 0;
+    background: var(--grey-color);
+    height: 100vh;
+    width: 100%;
+
 }
 
 .containerestadisticas{
     position: fixed;
     margin: 0 0 0 302px;
     background: var(--grey-color);
-    box-shadow: 2px 0px #E0E0E0;
-    height: 260px;
+    box-shadow: 2px 0 #E0E0E0;
+    height: 307px;
     width: 100%;
+}
+.datapicker-estadisticas{
+
 }
 .containerbotones{
     display: flex;
@@ -35,19 +42,18 @@ body{
     border: 2px solid #a6a6a6;
     box-shadow: 2px 2px #c9c9c9;
 }
-.botonfiltro{
+
+.iconoboton{
     width: 30px;
     height: 30px;
     padding-right: 20px;
 }
 
-.botonfiltro a:hover{
-    color: #fff;
-    margin-left: 20px;
-    transition: 0.4s;
-}
+
 
 .containergrafica{
-
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
