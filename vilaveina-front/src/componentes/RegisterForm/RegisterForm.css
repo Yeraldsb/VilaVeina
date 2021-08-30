@@ -23,6 +23,8 @@
     padding: 10px;
     margin-left: auto;
     width: 125px;
+    margin-top: 50px;
+    border: 2px solid #a6a6a6;
 }
 
 .columna-1 {
@@ -37,6 +39,7 @@
 }
 input , .formselect {
     margin: 10px 20px 10px 10px;
+
 }
 h3 {
     text-align: center;
