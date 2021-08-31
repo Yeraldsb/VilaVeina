@@ -13,8 +13,8 @@ import DatePicker from "react-datepicker";
 
 export default function Estadisticas() {
 
-    const [dateRange, setDateRange] = useState([null, null]);
-    const [startDate, endDate] = dateRange;
+    const [startDate, setStartDate] = useState(new Date ("2021/08/31"));
+    const [endDate, setEndDate] = useState (new Date ("2021/08/31"));
 
     return (
         <div className="bodyestadisticas">
